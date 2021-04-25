@@ -14,4 +14,6 @@ RUN apt-get update && \
 
 COPY ./php.ini /usr/local/etc/php/php.ini
 
+EXPOSE 80 10080 9000
+
 WORKDIR /work
